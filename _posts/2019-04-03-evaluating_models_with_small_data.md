@@ -30,7 +30,7 @@ We have an innate tendency to trust point estimates, and it's not surprising. Po
 
 # Measuring Metric Uncertainty
 
-One of the easiest ways to measure the uncertainty of your metrics is to simply bootstrap sample and fit multiple models. This won't account for any sampling differences in our data compared to the true "universe", but it will help us minimize the risk of simply getting a "lucky split" when we split our training and validation data. Below, I'll walk through some example code of how to do this:
+One of the easiest ways to measure the uncertainty of your metrics is to simply repeatedly sample and fit multiple models. This won't account for any sampling differences in our data compared to the true "universe", but it will help us minimize the risk of simply getting a "lucky split" when we split our training and validation data. Below, I'll walk through some example code of how to do this:
 
 First, I'll import a few libraries and load an example dataset from scikit-learn.
 
