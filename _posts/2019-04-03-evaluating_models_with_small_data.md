@@ -4,7 +4,7 @@ date:   2019-04-03
 tags: [machine learning, mathematics]
 
 header:
-  image: "small_data_modeling/sheep_splash_image.JPG"
+  image: "small_data_modeling/sheep_splash_image_resized.JPG"
   caption: "Photo Credit: Bobby Colton"
 
 excerpt: "Or, why point estimates only get you so far."
