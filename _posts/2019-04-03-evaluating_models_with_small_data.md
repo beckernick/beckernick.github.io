@@ -10,7 +10,7 @@ header:
 excerpt: "Or, why point estimates only get you so far."
 ---
 
-Big data is everywhere. In the past five years, data scientists and software engineers have increasingly turned to technologies like Apache Spark and GPU acceleration to build powerful models and make sense of the data. I don't see this trend changing any time soon. In fact, I think it should be **increasing**. That's why I spend my days helping bring GPU accelerated data science tools to market, so people can easily and efficiently analyze data at scale (check out [NVIDIA's RAPIDS project](https://rapids.ai/) for more information).
+Big data is everywhere. In the past five years, data scientists and software engineers have increasingly turned to technologies like Apache Spark and GPU acceleration to build powerful models and make sense of the data. I don't see this trend changing any time soon. In fact, I think it should be **increasing**. That's why I spend my days helping bring GPU accelerated data science tools to market, so people can easily and efficiently analyze data at scale (check out NVIDIA's [RAPIDS](https://rapids.ai/) project for more information).
 
 But some important problems simply don't provide big data. Patient outcomes data from clinical trials, for example, isn't likely to have more than a couple hundred observations (often far less, actually). More generally, when the cost of generating data is high, the cost of labeling data is high, or the time and effort involved in collecting the data is significant, we often have to deal with small datasets. Building models on these datasets poses a different and subtle set of challenges.
 
