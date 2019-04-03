@@ -50,7 +50,6 @@ import matplotlib.pyplot as plt
 ```python
 data = load_breast_cancer()
 features, target = data.data, data.target
-
 features.shape, target.shape
 ```
 
