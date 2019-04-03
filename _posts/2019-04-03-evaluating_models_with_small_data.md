@@ -25,7 +25,7 @@ It's generally good practice to think of most datasets (large and small) as bein
 
 We don't often think about it, but the standard model evaluation metrics of accuracy, precision, and recall are only point estimates. They're estimates of the true value based on our sample data, and, though we may not think about it, they come with their own set of uncertainty. Most importantly, when we split an already small dataset into training, validation, and test datasets, we end up magnifying our risk of biased evaluation metrics.
 
-We have an innate tendency to trust point estimates, and it's not surprising. Point estimates are **easy**. Reporting 92% accuracy sounds better than reporting 92% +- 4%. This isn't just academic. The difference between an accuracy of 88% and 96% could literally be the difference between a company launching and shelving a product.
+We have an innate tendency to trust point estimates, and it's not surprising. Point estimates are **easy**. Reporting 92% accuracy is easier and sounds better than reporting 92% +- 4%. But this difference isn't just academic. The difference between an accuracy of 88% and 96% could literally be the difference between a company launching and shelving a product.
 
 
 # Measuring Metric Uncertainty
