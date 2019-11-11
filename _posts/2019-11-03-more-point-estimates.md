@@ -1,13 +1,13 @@
 ---
 title:  "What 200,000 Readers Taught Me About Building Software"
 date:   2019-11-03
-tags: [machine learning, mathematics]
+tags: [product management, software development, blogging]
 
 header:
   image: "blogging_product_development/writing_image.jpg"
-  caption: "Photo Credit: None"
+  caption: "Image credit: Shutterstock
 
-excerpt: "More point estimates"
+excerpt: "Software product development lessons from 200,000 blog readers"
 ---
 
 Since my first post about three years ago, more than 200,000 different people have read this blog. Two hundred thousand people. The size of that number blows my mind. 200,000 people is nearly twice the size of the largest stadiums in the United States. I don’t know what it is, but something about seeing a number like that just humbles you.
@@ -50,7 +50,7 @@ Highlighting Twilio again, if I Google “[twilio send text message python](http
 ## Market Size and Timing Matter
 Fred Wilson is right: [market size matters most](https://avc.com/2019/03/market-team-product/). My posts on larger topics have been more successful in terms of viewership than posts about more niche topics. But, readers have still engaged with and commented on my niche posts. Posts about niche topics and products with small addressable markets often have different growth trajectories than ones targeting larger markets, which should affect your strategy. Products that need a large user base to succeed often need to grow differently than those that can survive before achieving scale. To paraphrase Joel Spoelsky, [are you Ben and Jerry’s or are you Amazon?](https://www.joelonsoftware.com/2000/05/12/strategy-letter-i-ben-and-jerrys-vs-amazon/)
 
-But, timing matters, too.
+Timing matters, too.
 
 First, markets are inherently dynamic. From 2016-2019, the number of people seeking to learn more about data science and machine learning [doubled](https://trends.google.com/trends/explore?date=2016-10-04%202019-11-04&geo=US&q=machine%20learning,data%20science). Posts about topics for which there was latent demand ([Logistic Regression From Scratch in Python](https://beckernick.github.io/logistic-regression-from-scratch/)) did better than posts for which there was more saturation ([Building a Neural Network from Scratch in Python and in TensorFlow](https://beckernick.github.io/neural-network-scratch/)), even though both posts did well. It’s part of the reason why some people describe product-market fit as when “the market pulls product out of the startup”.
 
