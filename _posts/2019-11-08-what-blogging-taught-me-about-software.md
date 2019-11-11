@@ -4,7 +4,7 @@ date:   2019-11-08
 tags: [product management, software development, blogging]
 
 header:
-  image: "blogging-product-development/writing_image.jpg"
+  image: "blogging_product_development/writing_image.jpg"
   caption: "Image credit: Shutterstock
 
 excerpt: "Software product development lessons from 200,000 blog readers"
