@@ -10,7 +10,7 @@ header:
 excerpt: "Software product development lessons from 200,000 blog readers"
 ---
 
-Since my first post about three years ago, more than 200,000 different people have read this blog. Two hundred thousand people. The size of that number blows my mind. 200,000 people is nearly double the largest stadiums in the United States. I don’t know what it is, but something about seeing a number like that just humbles you.
+Since my first post about three years ago, more than 200,000 different people have read this blog. Two hundred thousand people. The size of that number blows my mind. 200,000 people is nearly twice the capacity of the largest stadiums in the United States. I don’t know what it is, but something about seeing a number like that just humbles you.
 
 What began as a place for me to document my fooling around with the technology and modeling techniques I was using at the Federal Reserve Board grew into a site that thousands of people use to learn more about data science. [Andy Grove](https://en.wikipedia.org/wiki/Andrew_Grove) (former CEO and employee #3 of Intel) wrote that the value of writing reports “stems from the discipline and the thinking the writer is forced to impose upon himself as he identifies and deals with trouble spots in his presentation.” I now believe this holds true for blogging, too.
 
