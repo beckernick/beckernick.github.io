@@ -1,6 +1,6 @@
 ---
 title:  "What 200,000 Readers Taught Me About Building Software"
-date:   2019-11-10
+date:   2019-11-09
 tags: [product management, software development, blogging]
 
 header:
