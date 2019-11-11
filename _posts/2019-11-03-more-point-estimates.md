@@ -1,5 +1,5 @@
 ---
-title:  "Anoher Evaluating Models With Small Data"
+title:  "What 200,000 Readers Taught Me About Building Software"
 date:   2019-11-03
 tags: [machine learning, mathematics]
 
