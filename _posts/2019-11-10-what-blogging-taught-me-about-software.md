@@ -64,4 +64,4 @@ Writing has helped me clarify my product strategy by forcing me to interrogate m
 
 <sub><sub>*Thanks to Bryan Silverman, Jonathan Reshef, and Jordan Laney for reviewing this post.*</sub></sub>
 
-<sub><sub>*Note: This post also syndicated on my new [Medium page](https://medium.com/@beckernick)*</sub></sub>
+<sub><sub>*Note: This post also syndicated on my new [Medium page](https://medium.com/@beckernick).*</sub></sub>
