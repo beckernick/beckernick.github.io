@@ -4,7 +4,7 @@ date:   2019-11-03
 tags: [machine learning, mathematics]
 
 header:
-  image: "small_data_modeling/sheep_splash_image_resized.JPG"
+  image: "blogging_product_development/writing_image.jpg"
   caption: "Photo Credit: Bobby Colton"
 
 excerpt: "More point estimates"
