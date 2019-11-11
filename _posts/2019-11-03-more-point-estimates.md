@@ -1,7 +1,7 @@
 ---
 title:  "What 200,000 Readers Taught Me About Building Software"
 date:   2019-11-03
-tags: [product management, software development, blogging]
+tags: [machine learning, mathematics]
 
 header:
   image: "blogging_product_development/writing_image.jpg"
