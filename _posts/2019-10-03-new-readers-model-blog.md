@@ -1,5 +1,5 @@
 ---
-title:  "20,0 reader"
+title:  "readers"
 date:   2019-10-03
 tags: [product management, software development, blogging]
 
