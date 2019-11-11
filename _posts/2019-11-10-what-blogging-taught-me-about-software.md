@@ -60,7 +60,7 @@ Second, posts generally did better after other posts started doing better. When 
 ## Writing to Interrogate Your Ideas
 Over the past three years, this blog transitioned from a fun way to kill time into a vehicle for better understanding software company dynamics. I’ve seen how focused, discoverable documentation accelerates users’ time to utility, I’ve experienced firsthand how talking with users can change your roadmap and lead to more successful content, and I’ve lived the importance of market size and timing.
 
-Writing has helped me clarify my strategy by forcing me to interrogate my ideas. Not all ideas withstand scrutiny, but they help lead you to ones that do. Turns out, those end up being the better blog posts.
+Writing has helped me clarify my product strategy by forcing me to interrogate my ideas. Not all ideas withstand scrutiny, but they help lead you to ones that do. Turns out, those end up being the better blog posts, too.
 
 <sub><sub>*Thanks to Bryan Silverman, Jonathan Reshef, and Jordan Laney for reviewing this post.*</sub></sub>
 
