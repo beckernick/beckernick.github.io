@@ -5,7 +5,7 @@ tags: [machine learning, mathematics]
 
 header:
   image: "blogging_product_development/writing_image.jpg"
-  caption: "Photo Credit: Bobby Colton"
+  caption: "Photo Credit: None"
 
 excerpt: "More point estimates"
 ---
