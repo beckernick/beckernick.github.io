@@ -139,7 +139,7 @@ As expected, this scales pretty poorly. On the full 289 files, this scraper took
 
 So, what do we do next? Google "fast web scraping in python", probably. Unfortunately, the top results are primarily about speeding up web scraping in Python using the built-in `multiprocessing` library. This isn't surprising, as multiprocessing is easy to understand conceptually. But, it's not really going to help me.
 
-The benefits of multiprocessing are basically capped by the number of cores in the machine, and multiple Python processes come with more overhead than simply using multiple threads. If I were to use multiprocessing on my 2015 Macbook Air, it would at best make my web scraping task just less than 2x faster on my machine (two physical cores, minus the overhead of mulitprocessing).
+The benefits of multiprocessing are basically capped by the number of cores in the machine, and multiple Python processes come with more overhead than simply using multiple threads. If I were to use multiprocessing on my 2015 Macbook Air, it would at best make my web scraping task just less than 2x faster on my machine (two physical cores, minus the overhead of multiprocessing).
 
 # Multithreaded Web Scraping
 
