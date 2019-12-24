@@ -17,7 +17,7 @@ In light of that, I recently took a look at some of my old web scraping code acr
 In this post, I'll use `concurrent.futures` to make a simple web scraping task 20x faster on my 2015 Macbook Air. I'll briefly touch on how multithreading is possible here, but won't go into detail. This is really just about highlighting how you can do faster web scraping with almost no changes.
 
 
-## A Simple Example
+# A Simple Example
 
 Let's say you wanted to download the HTML for a bunch of stories submitted to Hacker News. It's pretty easy to do this. I'll walk through a quick example below.
 
@@ -76,7 +76,7 @@ download_url("https://beckernick.github.io/what-blogging-taught-me-about-softwar
     Request took 0.53 seconds.
 
 
-## The Problem
+# The Problem
 
 Right away, there's a problem. Making the `GET` request and receiving the response took about 500 ms, which is pretty concerning if we need to make thousands of these requests. Multiprocessing can't really solve this for me, as I only have two physical cores on my machine. Scraping thousands of files will still take thousands of seconds.
 
@@ -135,13 +135,13 @@ main(STORY_LINKS)
 
 As expected, this scales pretty poorly. On the full 289 files, this scraper took 319.86 seconds. That's about one file per second. At this point, we're definitely screwed if we need to scale up and we don't change our approach. 
 
-## Why Multiprocessing Isn't Enough
+# Why Multiprocessing Isn't Enough
 
 So, what do we do next? Google "fast web scraping in python", probably. Unfortunately, the top results are primarily about speeding up web scraping in Python using the built-in `multiprocessing` library. This isn't surprising, as multiprocessing is easy to understand conceptually. But, it's a shame.
 
-The benefits of multiprocessing are basically capped by the number of cores in the machine, and multiple Python processes come with more overhead than simply using multiple threads. If I were to use multiprocessing on the 2015 Macbook Air I'm currently using, it would at best make my web scraping task just less than 2x faster on my machine (two physical cores, minus the overhead of mulitprocessing).
+The benefits of multiprocessing are basically capped by the number of cores in the machine, and multiple Python processes come with more overhead than simply using multiple threads. If I were to use multiprocessing on my 2015 Macbook Air, it would at best make my web scraping task just less than 2x faster on my machine (two physical cores, minus the overhead of mulitprocessing).
 
-## Multithreaded Web Scraping
+# Multithreaded Web Scraping
 
 Luckily, there's a solution. In Python, I/O functionality is implemented in C and releases the [Global Interpreter Lock](https://wiki.python.org/moin/GlobalInterpreterLock) (GIL). This means I/O tasks can be executed concurrently across multiple threads **in the same process**, and that these tasks can happen while other Python bytecode is being interpreted.
 
@@ -213,8 +213,8 @@ main(STORY_LINKS)
 
 17.8 seconds for 289 stories! That's **way** faster. With almost no code changes, we got a roughly 18x speedup. At larger scale, we'd likely see even more potential benefit from multithreading.
 
-### Conclusion
+# Conclusion
 
 Basic web scraping in Python is pretty easy, but it can be time consuming. Multiprocessing looks like the easiest solution if you Google things like "fast web scraping in python", but it can only do so much. Multithreading with [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html) can speed up web scraping just as easily and usually far more effectively.
 
-<sub><sub>*Note: This post also syndicated on my new [Medium page](https://medium.com/@beckernick).*</sub></sub>
+<sub><sub>*Note: This post also syndicated on my [Medium page](https://medium.com/@beckernick).*</sub></sub>
