@@ -14,7 +14,7 @@ Working on GPU-accelerated [data science libraries](http://rapids.ai/) at NVIDIA
 
 In light of that, I recently took a look at some of my old web scraping code across various projects and realized I could have gotten results **much** faster if I had just made a small change and used Python's built-in [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html) library. I wasn't as well versed in concurrency and asynchronous programming back in 2016, so this didn't even enter my mind. Luckily, times have changed.
 
-In this post, I'll use `concurrent.futures` to make a simple web scraping task 20x faster on my 2015 Macbook Air. I'll briefly touch on how multithreading is possible here, but won't go into detail. This is really just about highlighting how you can do faster web scraping with almost no changes.
+In this post, I'll use `concurrent.futures` to make a simple web scraping task 20x faster on my 2015 Macbook Air. I'll briefly touch on how multithreading is possible here and why it's better than multiprocessing, but won't go into detail. This is really just about highlighting how you can do faster web scraping with almost no changes.
 
 
 # A Simple Example
