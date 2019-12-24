@@ -217,4 +217,4 @@ main(STORY_LINKS)
 
 Basic web scraping in Python is pretty easy, but it can be time consuming. Multiprocessing looks like the easiest solution if you Google things like "fast web scraping in python", but it can only do so much. Multithreading with [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html) can speed up web scraping just as easily and usually far more effectively.
 
-<sub><sub>*Note: This post also syndicated on my [Medium page](https://medium.com/@beckernick).*</sub></sub>
+<sub><sub>*Note: This post also syndicated on my [Medium page](https://medium.com/@beckernick/faster-web-scraping-in-python-e3fba2ebb541).*</sub></sub>
