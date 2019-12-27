@@ -178,9 +178,9 @@ def main(story_urls):
     print(f"{t1-t0} seconds to download {len(story_urls)} stories.")
 ```
 
-Notice how little changed. Instead of looping through `stories` and calling `download_url`, I use the `ThreadPoolExecutor` from `concurrent.futures` to execute the function across many independent threads. I also don't want to launch 30 threads for two URLs, so I set `threads` to be the smaller of `MAX_THREADS` and the number of URLs. These threads operate **asynchronously**.
+Notice how little changed. Instead of looping through `story_urls` and calling `download_url`, I use the `ThreadPoolExecutor` from `concurrent.futures` to execute the function across many independent threads. I also don't want to launch 30 threads for two URLs, so I set `threads` to be the smaller of `MAX_THREADS` and the number of URLs. These threads operate **asynchronously**.
 
-That's all there is to it. Let's see how big of an impact this tiny change can make. It took about four seconds to download five links before.
+That's all there is to it. Let's see how big of an impact this tiny change can make. It took about five seconds to download five links before.
 
 
 ```python
