@@ -143,7 +143,7 @@ The benefits of multiprocessing are basically capped by the number of cores in t
 
 # Multithreaded Web Scraping
 
-Luckily, there's a solution. In Python, I/O functionality is implemented in C and releases the [Global Interpreter Lock](https://wiki.python.org/moin/GlobalInterpreterLock) (GIL). This means I/O tasks can be executed concurrently across multiple threads **in the same process**, and that these tasks can happen while other Python bytecode is being interpreted.
+Luckily, there's a solution. In Python, I/O functionality releases the [Global Interpreter Lock](https://wiki.python.org/moin/GlobalInterpreterLock) (GIL). This means I/O tasks can be executed concurrently across multiple threads **in the same process**, and that these tasks can happen while other Python bytecode is being interpreted.
 
 Oh, and it's not just I/O that can release the GIL. You can release the GIL in your own library code, too. This is how data science libraries like [cuDF](https://github.com/rapidsai/cudf/) and [CuPy](https://github.com/cupy/cupy/) can be so fast. You can wrap Python code _around_ blazing fast CUDA code (to take advantage of the GPU) that isn't bound by the GIL!
 
